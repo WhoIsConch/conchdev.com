@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Plus+Jakarta+Sans&display=swap');
-
 body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
@@ -9,18 +7,22 @@ body {
 
 .container {
   text-align: center;
-  padding: 5em 20em 5em 20em;
 }
 
 .nav {
   display: flex;
   justify-content: center;
-  font-size: 1.5em;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-bottom: 180px;
+  margin-top: 10px;
+  list-style: none;
 }
 
 .nav a {
-  padding: 0.5em 1em;
   color: black;
+  margin: 24px;
+  transition: color 0.5s;
 }
 
 .nav a:hover {
@@ -29,30 +31,35 @@ body {
 
 .header {
   color: white;
-
   text-align: center;
-  padding: 7em;
+
   /* background-image: url("assets/keyboard-1.jpg");
   background-size: cover;
   background-position: center; */
 }
 
+.title {
+  margin-bottom: 30px;
+}
+
 h2 {
   font-size: 3em;
   font-weight: bold;
+  max-width: 950px;
+  margin: auto;
 }
 
 .container h1 {
     font-size: 5em;
     font-weight: bold;
-    text-align: center;
-    margin: 1em 0 1em 0;
+    max-width: 950px;
+    margin: auto;
 }
 
 .container p {
     font-size: 1.5em;
-    text-align: center;
-    margin: 1em 0 1em 0;
+    max-width: 950px;
+    margin: auto;
 }
 
 h3 {
@@ -63,22 +70,32 @@ h3 {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0 20em 0 20em;
   overflow: hidden;
 }
 
 li {
-  padding: 0.5em;
   font-size: 1.4em;
-
 }
 
 a {
   text-decoration: none;
   color: #7ebbfc;
   font-weight: bold;
+  max-width: 950px;
+  margin: auto;
 }
 
 a:hover {
   color: #3587de;
+}
+
+@media only screen and (max-width: 800px) {
+
+  body {
+    padding: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
 }
