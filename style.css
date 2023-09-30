@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background-color: rgb(41, 41, 41);
+  background: linear-gradient(129deg, rgba(130, 2, 99,0.9840000000000001) 1%, rgba(94, 177, 191,1) 100%);
   color: white;
 }
 
 .container {
   text-align: center;
-  background-color: gray;
+  /* background-color: rgb(97, 97, 230); */
   margin: 20px auto;
   max-width: 80%;
   border-radius: 10px;
