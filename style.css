@@ -1,12 +1,19 @@
 body {
   margin: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
-  background: linear-gradient(129deg, rgba(130, 2, 99,0.9840000000000001) 1%, rgba(94, 177, 191,1) 100%);
+  background-color: rgb(41, 41, 41);
   color: white;
 }
 
 .container {
   text-align: center;
+  background-color: gray;
+  margin: 20px auto;
+  max-width: 80%;
+  border-radius: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
 }
 
 .nav {
@@ -20,26 +27,24 @@ body {
 }
 
 .nav a {
-  color: black;
+  color: white;
   margin: 24px;
   transition: color 0.5s;
 }
 
 .nav a:hover {
-  color: white;
+  color: rgb(82, 82, 82);
 }
 
 .header {
   color: white;
   text-align: center;
-
-  /* background-image: url("assets/keyboard-1.jpg");
-  background-size: cover;
-  background-position: center; */
+  margin-bottom: 10em;
 }
 
 .title {
   margin-bottom: 30px;
+  padding-top: 30px;
 }
 
 h2 {
@@ -58,7 +63,7 @@ h2 {
 
 .container p {
     font-size: 1.5em;
-    max-width: 950px;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -83,6 +88,7 @@ a {
   font-weight: bold;
   max-width: 950px;
   margin: auto;
+  transition: color 0.5s;
 }
 
 a:hover {
