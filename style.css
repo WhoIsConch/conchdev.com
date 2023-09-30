@@ -9,7 +9,7 @@ body {
   text-align: center;
   /* background-color: rgb(97, 97, 230); */
   margin: 20px auto;
-  max-width: 80%;
+  max-width: 90%;
   border-radius: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -63,7 +63,7 @@ h2 {
 
 .container p {
     font-size: 1.5em;
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
 }
 
