@@ -1,0 +1,76 @@
+body {
+    background-color: #2a2a2a;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #424242;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    flex: 2;
+    min-width: 200px;
+    font-size: 20px;
+}
+
+.preferred {
+    flex-grow: 3;
+}
+
+.needs-space {
+    min-width: 250px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.selectable {
+    transition: background-color 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}   
+
+.selectable:hover {
+    cursor: pointer;
+    background-color: #373333;
+    transition: background-color 0.5s;
+}
