@@ -1,9 +1,9 @@
 body {
-    background-color: #2a2a2a;
+    background-color: #222831;
     font-family: 'Plus Jakarta Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #222831;
 }
 
 h1 {
@@ -28,12 +28,13 @@ h4 {
     max-width: 100%;
     border-radius: 10px;
     padding: 10px;
-    background-color: #424242;
+    background-color: #31363F;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    color: #EEEEEE;
 }
 
 .card {
-    background-color: #2a2a2a;
+    background-color: #76ABAE;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -41,6 +42,7 @@ h4 {
     flex: 2;
     min-width: 200px;
     font-size: 20px;
+    color: #222831;
 }
 
 .preferred {
@@ -71,6 +73,6 @@ a {
 
 .selectable:hover {
     cursor: pointer;
-    background-color: #373333;
+    background-color: #506a6b;
     transition: background-color 0.5s;
 }
