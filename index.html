@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,71 +11,97 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Make a horizontal centered navigation with home, about, projects, and contact. -->
-    <div class="nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+    <div class="container">
+        <ul class="flex-container">
+            <li class="card preferred needs-space">
+                <h1 class="Title">Hi, I'm Conch.</h1>
+                <h3>Python / Rust / JavaScript / Flutter</h3>
+                <h3>Developer / Computer Nerd</h3>
+            </li>
+            <li class="card needs-space">
+                <h1>Who?</h1>
+                <h4>
+                    I'm Conch, a 17 year old, self-taught programmer. 
+                    I can code in plenty of languages, though I'm by far the 
+                    best in Python. 
+                </h4>
+            </li>
+        </ul>
     </div>
-    <div class="container header">
-        <h1 id="home">Hi, I'm Conch.</h1>
-        <h2>I'm just your average Python developer.</h2>
+    <div class="container">
+        <h1>Projects</h1>
+        <h4>Check out some of my current projects:</h4>
+        <ul class="flex-container">
+            <a href="https://connect.twisea.net" class="card selectable">
+                <li>
+                    <h2>Connect</h2>
+                    <p>A social media-like Discord app. Browse a twitter-like social media directly in Discord.</p>
+                </li>
+            </a>
+            <a href="https://github.com/WhoIsConch/SimpleCTE" class="card selectable">
+                <li>
+                    <h2>SimpleCTE</h2>
+                    <p>
+                        Created for the FBLA 2024 Coding and Programming competition, 
+                        SimpleCTE is a database application written in Python and PySimpleGUI
+                        for managing a career and technical education program.
+                    </p>
+                </li>
+            </a>
+            <a href="https://github.com/WhoIsConch/UwUinator.git" class="card selectable">
+                <li>
+                    <h2>The UwUinator</h2>
+                    <p>
+                        The UwUinator is a family of projects dedicated to filling up a directory or drive 
+                        with some sort of data or file. The UwUinator has programs written in Python and Rust.
+                    </p>
+                </li>
+            </a>
+            <a href="https://github.com/WhoIsConch" class="card selectable">
+                <li>
+                    <h2>Other Projects</h2>
+                    <p>My GitHub account is home to a host of other random projects I made.</p>
+                </li>
+            </a>
+        </ul>
     </div>
-    <div class="container about">
-        <h2 id="about" class="title">About Me</h2>
-        <p>I'm a 16 year old developer from the United States.</p>
-        <br/>
-        <p>
-            I'm also working on a few projects, which you can find in the <a href="#projects">Projects</a> section.
-            I'm very interested in programming, and most likely going for a software engineering or computer science major in college. 
-            One of my favorite computer concepts is internet of things. IoT is super interesting to learn about and I hope to work with it in the future.
-        </p>
-
-        <h2 class="title">About This Website</h2>
-        <p>
-            Yeah, I'm not a <b>web developer.</b> This website doesn't even have any JavaScript. It's a static website with average HTML and sub-par CSS. That's fine. 
-            A website doesn't have to be over-the-top fancy, it just has to get a point across. I mean, now you surely <i>must</i> know who I am, right?
-        </p>
-
+    <div class="container">
+        <h1>Contact</h1>
+        <h4>Want to get in touch? Here's how:</h4>
+        <ul class="flex-container">
+            <a href="https://youtube.com/@whoisconch" class="card selectable">
+                <li>
+                    <h2>YouTube</h2>
+                    <p>Look at youtube</p>
+                </li>
+            </a>
+            <a href="https://discord.com/users/579041484796461076" class="card selectable">
+                <li>
+                    <h2>Discord</h2>
+                    <p>Send me a message on Discord.</p>
+                </li>
+            </a>
+            <a href="https://discord.com/invite/the-coding-realm-681882711945641997" class="card selectable">
+                <li>
+                    <h2>The Coding Realm</h2>
+                    <p>Join my favorite Discord server.</p>
+                </li>
+            </a>
+            <a href="https://x.com/UnsoughtConch" class="card selectable">
+                <li>
+                    <h2>X/Twitter</h2>
+                    <p>Take a look at my Twitter.</p>
+                </li>
+            </a>
+            <a href="mailto:conch@twisea.net" class="card selectable">
+                <li>
+                    <h2>Email</h2>
+                    <p>Send me a mail.</p>
+                </li>
+            </a>
+        </ul>
     </div>
-    <div class="container projects">
-        <h2 id="projects" class="title">Projects</h2>
-        <p>
-            My current only project is <a href="https://connect.twisea.net/" target="_blank">Connect</a>, a social media platform by Twisea. The main point about Connect, though, 
-            is that its primary client is a Discord bot. Connect allows users from any Discord server to interact with others from different servers.
-        </p>
-        <br/>
-        <p>
-            While not currently partaking in development, I'm also closely affiliated with <a href="https://pycord.dev/" target="_blank">Pycord</a>, a Python wrapper for the Discord API.
-            Definitely check that out.
-        </p>
-        <br/>
-        <p>
-            To view all of my current or past projects, please view my <a href="https://github.com/ConchDev" target="_blank">GitHub</a> profile.
-        </p>
-        </br>
-        <h2 class="title">Partner Projects</h2>
-        <p>
-            If you're interested in working with me on a project, feel free to contact me via any of the ways listed in the <a href="#contact">Contact</a> section.
-        </p>
-    </div>
-    <div class="container contact">
-        <h2 id="contact" class="title" style="line-height: 30px;">Contact Me</h2>
-        <p>
-            I have very many ways of contact. Unfortunately, I'm not always active on them. Below, you can find a list of ways to contact me and the likeliness that 
-            I'll respond. Just don't send me a random friend request, I'll probably decline it.
-        </p>
-        <h3 class="title">Direct Contact</h3>
-        <p><b><a href="mailto:conch@twisea.net" target="_blank">Email</a>: </b>Likely within 24-48 hours</p>
-        <p><b><a href="https://discord.com/users/579041484796461076" target="_blank">Discord</a> @WhoIsConch: </b>Extremely likely to respond fast.</p>
-        <p><b><a href="https://twitter.com/UnsoughtConch" target="_blank">"X"</a>: </b>I'm not very active on "X", but I'll quickly respond to any DMs.</p>
-
-        <h3 class="title">Other Media</h3>
-        <p><a href="https://github.com/WhoIsConch" target="_blank">GitHub</a></p>
-        <p><a href="https://patreon.com/ConchDev" target="_blank">Support me on Patreon</a></p>
-    </div>
-
-            
+</body>
 </html>

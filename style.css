@@ -1,107 +1,78 @@
 body {
-  margin: 0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  background: linear-gradient(129deg, rgba(130, 2, 99,0.9840000000000001) 1%, rgba(94, 177, 191,1) 100%);
-  color: white;
+    background-color: #222831;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222831;
 }
 
-.container {
-  text-align: center;
-  /* background-color: rgb(97, 97, 230); */
-  margin: 20px auto;
-  max-width: 90%;
-  border-radius: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-
-}
-
-.nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  font-size: 20px;
-  margin-bottom: 180px;
-  margin-top: 10px;
-  list-style: none;
-}
-
-.nav a {
-  color: white;
-  margin: 24px;
-  transition: color 0.5s;
-}
-
-.nav a:hover {
-  color: rgb(82, 82, 82);
-}
-
-.header {
-  color: white;
-  text-align: center;
-  margin-bottom: 10em;
-}
-
-.title {
-  margin-bottom: 30px;
-  padding-top: 30px;
+h1 {
+    font-size: 50px;
 }
 
 h2 {
-  font-size: 3em;
-  font-weight: bold;
-  max-width: 950px;
-  margin: auto;
-}
-
-.container h1 {
-    font-size: 5em;
-    font-weight: bold;
-    max-width: 950px;
-    margin: auto;
-}
-
-.container p {
-    font-size: 1.5em;
-    max-width: 90%;
-    margin: auto;
+    font-size: 40px;
 }
 
 h3 {
-  font-size: 1.7em;
-  font-weight: bold;
+    font-size: 30px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+h4 {
+    font-size: 25px;
 }
 
-li {
-  font-size: 1.4em;
+.container {
+    text-align: center;
+    margin: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #31363F;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    color: #EEEEEE;
+}
+
+.card {
+    background-color: #76ABAE;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    flex: 2;
+    min-width: 200px;
+    font-size: 20px;
+    color: #222831;
+}
+
+.preferred {
+    flex-grow: 3;
+}
+
+.needs-space {
+    min-width: 250px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.selectable {
+    transition: background-color 0.5s;
 }
 
 a {
-  text-decoration: none;
-  color: #7ebbfc;
-  font-weight: bold;
-  max-width: 950px;
-  margin: auto;
-  transition: color 0.5s;
-}
+    text-decoration: none;
+    color: inherit;
+}   
 
-a:hover {
-  color: #3587de;
-}
-
-@media only screen and (max-width: 800px) {
-
-  body {
-    padding: 20px;
-  }
-
-  .nav {
-    display: none;
-  }
+.selectable:hover {
+    cursor: pointer;
+    background-color: #506a6b;
+    transition: background-color 0.5s;
 }
