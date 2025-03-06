@@ -1,78 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+    background-color: rgb(24, 23, 23);
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #222831;
-    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #222831;
+    margin: 2em;
+    font-size: 18px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 48px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 32px;
+    margin: 0;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
 }
 
-h4 {
-    font-size: 25px;
+.title-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 40px;
+    transition: flex-wrap 0.4s ease;
+}
+
+.title-container h1 {
+    margin-bottom: 2px;
+}
+
+.content {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.tagline {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.desc {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.the-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.the-bar ul {
+    list-style: none;
+    text-align: right;
+}
+
+.the-bar li {
+    display: inline-block;
+    padding: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+    transition: all .4s ease;
+    font-size: 24px;
+}
+
+.the-bar li:hover {
+    background-color: black;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 24px 0 24px 0;
 }
 
 .container {
-    text-align: center;
-    margin: 20px;
-    max-width: 100%;
     border-radius: 10px;
-    padding: 10px;
-    background-color: #31363F;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    color: #EEEEEE;
+    padding: 24px;
+    transition: 
+        box-shadow .2s ease,
+        background-color .2s ease;
 }
 
-.card {
-    background-color: #76ABAE;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    flex: 2;
-    min-width: 200px;
-    font-size: 20px;
-    color: #222831;
+.project-container {
+    flex-grow: 1;
+    flex-basis: 48%;
+    box-sizing: border-box;
 }
 
-.preferred {
-    flex-grow: 3;
+.container:hover {
+    background-color: black;
+    transition: 
+        background-color .2s ease;
 }
 
-.needs-space {
-    min-width: 250px;
+.container a {
+    text-decoration: underline;
+    color: rgb(27, 63, 221)
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.container a:hover {
+    color: rgb(22, 51, 177);
+    transition: color 0.2s ease;
 }
 
-.selectable {
-    transition: background-color 0.5s;
+.contact-container {
+    flex-basis: 20%;
+    flex-grow: 1;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}   
-
-.selectable:hover {
-    cursor: pointer;
-    background-color: #506a6b;
-    transition: background-color 0.5s;
+@media (max-width: 769px) {
+    .content {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }

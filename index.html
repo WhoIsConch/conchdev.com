@@ -1,107 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Conch</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <title>Who Is Conch?</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container">
-        <ul class="flex-container">
-            <li class="card preferred needs-space">
-                <h1 class="Title">Hi, I'm Conch.</h1>
-                <h3>Python / Rust / JavaScript / Flutter</h3>
-                <h3>Developer / Computer Nerd</h3>
-            </li>
-            <li class="card needs-space">
-                <h1>Who?</h1>
-                <h4>
-                    I'm Conch, a 17 year old, self-taught programmer. 
-                    I can code in plenty of languages, though I'm by far the 
-                    best in Python. 
-                </h4>
-            </li>
+    <div class="the-bar">
+        <ul>
+            <a href="#about"><li>About</li></a>
+            <a href="#projects"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li></a>
         </ul>
     </div>
-    <div class="container">
-        <h1>Projects</h1>
-        <h4>Check out some of my current projects:</h4>
-        <ul class="flex-container">
-            <a href="https://connect.twisea.net" class="card selectable">
-                <li>
+    <div class="content">
+        <div id="about">
+            <div class="title-container">
+                <h1>Hi, I'm Conch.</h1>
+                <p class="tagline">Washed Programmer / Mediocre CAD Designer / Professional Lunatic</p>
+            </div>
+            <p class="desc">
+                I can code in languages like Python, JavaScript, Dart, Rust, and more. I like to think 
+                I can easily get started with most languages (given documentation is available).
+            </p>
+            <p class="desc">
+                I also like using AutoCAD and Fusion360 to hack together poorly made 3D models for
+                my printers to choke on. 
+            </p>
+        </div>
+        <div id="projects">
+            <div class="title-container">
+                <h1>My Projects.</h1>
+                <p class="tagline">If you feel the need to make fun of me, at least make an issue and include a fix while you're at it. </p>
+            </div>
+            <div class="block">
+                <div class="container project-container">
                     <h2>Connect</h2>
-                    <p>A social media-like Discord app. Browse a twitter-like social media directly in Discord.</p>
-                </li>
-            </a>
-            <a href="https://github.com/WhoIsConch/SimpleCTE" class="card selectable">
-                <li>
+                    <p>
+                        Now discontinued, Connect was a verified Discord bot that functioned sort of like Twitter, but
+                        entirely within Discord. Built using Python and PostgreSQL. 
+                    </p>
+                    <a href="https://connect.twisea.net/" target="_blank">That sounds kind of cool.</a>
+                </div>
+                <div class="container project-container">
                     <h2>SimpleCTE</h2>
                     <p>
-                        Created for the FBLA 2024 Coding and Programming competition, 
-                        SimpleCTE is a database application written in Python and PySimpleGUI
-                        for managing a career and technical education program.
+                        Created for the FBLA 2024 Coding and Programming competition, SimpleCTE is a database application written in Python 
+                        and PySimpleGUI for managing a career and technical education program.
                     </p>
-                </li>
-            </a>
-            <a href="https://github.com/WhoIsConch/UwUinator.git" class="card selectable">
-                <li>
+                    <a href="https://github.com/WhoIsConch/SimpleCTE" target="_blank">Did you win?</a>
+                </div>
+                <div class="container project-container">
                     <h2>The UwUinator</h2>
                     <p>
-                        The UwUinator is a family of projects dedicated to filling up a directory or drive 
-                        with some sort of data or file. The UwUinator has programs written in Python and Rust.
+                        The UwUinator is a family of projects dedicated to filling up a directory or drive with some sort of data or file. 
+                        The UwUinator has programs written in Python and Rust. 
                     </p>
-                </li>
-            </a>
-            <a href="https://github.com/WhoIsConch" class="card selectable">
-                <li>
-                    <h2>Other Projects</h2>
-                    <p>My GitHub account is home to a host of other random projects I made.</p>
-                </li>
-            </a>
-        </ul>
-    </div>
-    <div class="container">
-        <h1>Contact</h1>
-        <h4>Want to get in touch? Here's how:</h4>
-        <ul class="flex-container">
-            <a href="https://youtube.com/@whoisconch" class="card selectable">
-                <li>
-                    <h2>YouTube</h2>
-                    <p>Look at youtube</p>
-                </li>
-            </a>
-            <a href="https://discord.com/users/579041484796461076" class="card selectable">
-                <li>
+                    <a href="https://github.com/WhoIsConch/UwUinator" target="_blank">Who would spend their time on that?</a>
+                </div>
+                <div class="container project-container">
+                    <h2>Anything Else</h2>
+                    <p>
+                        Feel free to take a look at my GitHub page to get a load of all the other nonsense I'm up to.
+                    </p>
+                    <a href="https://github.com/WhoIsConch/" target="_blank">Oh boy!</a>
+                </div>
+            </div>
+        </div>
+        <div id="contact">
+            <div class="title-container">
+                <h1>Contact Me.</h1>
+                <p class="tagline">If you just can't get enough of me.</p>
+            </div>
+            <div class="block">
+                <div class="container contact-container">
+                    <h2>Twitter</h2>
+                    <a href="https://x.com/UnsoughtConch" target="_blank"><h3>@UnsoughtConch</h3></a>
+                    <p>Sorry Elon, I'm still not calling it X.</p>
+                </div>
+                <div class="container contact-container">
                     <h2>Discord</h2>
-                    <p>Send me a message on Discord.</p>
-                </li>
-            </a>
-            <a href="https://discord.com/invite/the-coding-realm-681882711945641997" class="card selectable">
-                <li>
+                    <a href="https://discord.com/users/579041484796461076" target="_blank"><h3>@WhoIsConch</h3></a>
+                    <p>Be my e-kitten.</p>
+                </div>
+                <div class="container contact-container">
+                    <h2>GitHub</h2>
+                    <a href="https://github.com/WhoIsConch/" target="_blank"><h3>@WhoIsConch</h3></a>
+                    <p>In case you refused to read the Projects section.</p>
+                </div>
+                <div class="container contact-container">
                     <h2>The Coding Realm</h2>
-                    <p>Join my favorite Discord server.</p>
-                </li>
-            </a>
-            <a href="https://x.com/UnsoughtConch" class="card selectable">
-                <li>
-                    <h2>X/Twitter</h2>
-                    <p>Take a look at my Twitter.</p>
-                </li>
-            </a>
-            <a href="mailto:conch@twisea.net" class="card selectable">
-                <li>
-                    <h2>Email</h2>
-                    <p>Send me a mail.</p>
-                </li>
-            </a>
-        </ul>
+                    <a href="https://discord.com/invite/the-coding-realm-681882711945641997"><h3>Join TCR</h3></a>
+                    <p>Join my favorite Discord Server.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
