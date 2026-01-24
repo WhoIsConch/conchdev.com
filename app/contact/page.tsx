@@ -1,7 +1,7 @@
 import ProjectCard from "../ui/ProjectCard";
 
 export default function ContactPage() {
-    return <div className="flex flex-col gap-4">
+    return <div className="flex flex-col gap-4 pb-8">
         <h1 className="text-4xl font-bold">Contact Me</h1>
         <p className="text-lg">
             Listen, I don&apos;t know in what universe you would be on this 

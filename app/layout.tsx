@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${googleSansCode.variable} antialiased flex flex-col h-screen`}>
         <NavBar />
-        <div className="2xl:px-128 px-32 flex-1 flex flex-col justify-center">
+        <div className="2xl:px-128 md:px-32 px-8 flex-1 flex flex-col justify-center">
           {children}
         </div>
       </body>

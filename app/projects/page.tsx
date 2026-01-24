@@ -6,7 +6,7 @@ export default function Projects() {
       <p className="text-lg">
         Look, I figured out Next.JS routing, too. Anyway,
       </p>
-    <div className="flex flex-col gap-4 justify-center flex-1">
+    <div className="flex flex-col gap-4 justify-center flex-1 py-8">
       <h1 className="text-4xl font-bold">My Projects</h1>
       <p className="text-lg">
         Unfortunately, I don&apos;t have a lot of active public projects right

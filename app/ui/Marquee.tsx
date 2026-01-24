@@ -1,5 +1,5 @@
 export default function Marquee() {
-    return <div className="overflow-hidden mt-auto py-8 relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+    return <div className="overflow-hidden mt-auto py-8">
         <div className="animate-marquee" style={{ '--duration': '160s' } as React.CSSProperties}>
             <p className="px-64">
                 React and Next.js are actually pretty cool to work with, I can&apos;t lie. I enjoy TypeScript and the JSX format,
